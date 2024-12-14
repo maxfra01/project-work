@@ -4,7 +4,7 @@ numpy_function_map = {
     # Trigonometric functions
     'sin': np.sin,
     'cos': np.cos,
-    'tan': np.tan,
+    #'tan': np.tan,
     # 'arcsin': np.arcsin,
     # 'asin': np.arcsin,
     # 'arccos': np.arccos,
@@ -61,7 +61,7 @@ numpy_function_map = {
     'exp': np.exp,
     #'expm1': np.expm1,
     # 'exp2': np.exp2,
-    # 'log': np.log,
+     'log': np.log,
     # 'log10': np.log10,
     # 'log2': np.log2,
     #'log1p': np.log1p,
@@ -139,4 +139,4 @@ numpy_function_map = {
 }
 
 numpy_binary_operator_list = [ 'add', 'multiply', 'divide', 'power', 'pow', 'subtract' ]
-numpy_unary_operator_list = [ 'exp', 'sin', 'cos', 'tan']
+numpy_unary_operator_list = [ 'exp', 'sin', 'cos', 'log']
